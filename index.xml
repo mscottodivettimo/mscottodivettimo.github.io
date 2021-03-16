@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/</link>
+      <atom:link href="https://mscottodivettimo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michele Scotto di Vettimo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Michele Scotto di Vettimo</title>
+      <link>https://mscottodivettimo.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Andamento delle vaccinazioni COVID-19 regione per regione</title>
+      <link>https://mscottodivettimo.github.io/project/covid_italia/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/project/covid_italia/</guid>
+      <description>&lt;p&gt;In questo post (in continuo aggiornamento) provo a riportare in forma grafica le informazioni sulla somministrazione dei vaccini COVID-19 diffuse giornalmente dal Ministero della Salute. I dati grezzi delle vaccinazioni giornaliere per regione vengono presi dal &lt;a href=&#34;https://github.com/italia/covid19-opendata-vaccini&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository di Developers Italia&lt;/a&gt; contenente gli Opendata sulle vaccinazioni ricavati dalla dashboard del &lt;a href=&#34;https://www.governo.it/it/cscovid19/report-vaccini/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Report Vaccini Anti COVID-19&lt;/a&gt; del Ministero della Salute. I dati riarrangiati su cui si basano i grafici di questo post sono messi a disposizione in formato csv.&lt;/p&gt;
+&lt;p&gt;Nel nostro paese, la campagna vaccinale è cominciata il 31 dicembre 2020, dopo che nella giornata del 27 solo poche migliaia di dosi erano state somministrate, simbolicamente, per il Vaccine Day europeo. Fino ad ora al nostro paese sono state consegnate 8.597.500 dosi, fornite per circa il 68 percento da Pfizer/BioNTech, per il 25 percento da AstraZeneca e per il 5 percento da Moderna. &lt;iframe width=&#34;100%&#34; height=&#34;400&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/somm_per_fornitore.html&#34;&gt;&lt;/iframe&gt;Alla mattina del 15 marzo sono stati somministrati 6.715.732 vaccini in tutta Italia, con un incremento di 95.721 vaccinazioni rispetto al giorno precedente, e corrispondenti al 78 percento delle dosi distribuite alle regioni. Dall&amp;rsquo;inizio della campagna si sono somministrate, mediamente, circa 91 mila dosi di vaccino al giorno, con un picco di 208.440 somministrazioni il 11 marzo.&lt;/p&gt;
+&lt;p&gt;Negli ultimi 7 giorni, invece, sono state somministrate circa 175 mila dosi al giorno, un valore superiore alla media giornaliera lungo periodo di circa il 92 percento. Inoltre, confrontando il numero delle dosi somministrate tra lunedì e domenica nelle ultime settimane si ottengono i seguenti valori:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;questa settimana: 1.227.160&lt;/li&gt;
+&lt;li&gt;settimana scorsa: 1.138.037&lt;/li&gt;
+&lt;li&gt;due settimane fa: 793.586&lt;/li&gt;
+&lt;li&gt;tre settimane fa: 520.116&lt;/li&gt;
+&lt;li&gt;quattro settimane fa: 430.988&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La figura successiva mostra invece l&amp;rsquo;andamento nazionale delle somministrazioni dall&amp;rsquo;inizio della campagna vaccinale. Le barre di colore blu si riferiscono alla somministrazione della seconda dose, e pertanto indicano il numero di individui completamente immunizzati.&lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/bar_dosi.html&#34;&gt;&lt;/iframe&gt;Al momento, in Italia sono state immunizzate 2.003.391 persone, corrispondenti al 3.4 percento della popolazione residente, mentre 2.708.950 sono in attesa di ricevere la seconda dose (quindi il 7.9 percento della popolazione ha ricevuto almeno una dose). Il numero di dosi somministrate per ogni 1000 abitanti può essere usato per confrontare l&amp;rsquo;Italia con gli altri paesi per vedere chi sta procedendo più speditamente nella campagna di vaccinazione.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;450&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/som_p1000_abs.gif&#34;&gt;&lt;/iframe&gt;La somministrazione di vaccini, comunque, non è omogenea su tutto il territorio nazionale. Il grafico a barre qui sotto mostra i numeri (assoluti, ponderati alla popolazione o come percentuale delle scorte a disposizione) delle somministrazioni e delle immunizzazioni regione per regione, e fornisce una visione generale di dove sono stati fatti più vaccini. Da notare che tutti i vaccini in uso in Italia al momento richiedono la somministrazione di due dosi.&lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/bar_chart.html&#34;&gt;&lt;/iframe&gt;Tuttavia, il numero assoluto di somministrazioni non permette di confrontare facilmente il ritmo di implementazione del piano vaccinale tra varie regioni. Pertanto, il seguente grafico mostra l&#39;andamento delle somministrazioni giornaliere regione per regione (viste le numerose oscillazioni le serie sono state &#34;lisciate&#34; e considerano la media mobile su 5 giorni). Lazio, Molise e Abruzzo sono le regioni che stanno somministrando più dosi in rapporto alla propria popolazione, mentre Basilicata e Friuli-Venezia Giulia sono quelle che arrancano di più.&lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/somm_giornaliere.html&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Inoltre, come si può vedere nel prossim grafico a barre, pur partendo tutte dalle categorie inviduate nel &lt;a href=&#34;http://www.salute.gov.it/imgs/C_17_pubblicazioni_2986_allegato.pdf&#34; target=&#34;_top&#34;&gt;Piano vaccini&lt;/a&gt; , alcune regioni si stanno muovendo più rapidamente di altre per quanto riguarda la vaccinazione delle fasce di età più anziane. &lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/bar_perc_fasce.html&#34;&gt;&lt;/iframe&gt;
+Pertanto, alcune regioni, come ad esempio Bolzano e Trento, hanno coperto più di altre individui di età superiore a 60 anni, la categoria di persone in cui ricade la &lt;a href=https://www.epicentro.iss.it/coronavirus/sars-cov-2-decessi-italia target=&#34;_top&#34;&gt; stragrande maggioranza dei decessi per COVID-19&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://mscottodivettimo.github.io/files/perc_immunizzati_età.html&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;em&gt;Aggiornato con i dati disponibili alle ore 18:23 del 15 marzo.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Central Banks after the global financial crisis: Does more political means also more politicised?</title>
+      <link>https://mscottodivettimo.github.io/publication/boe_koop/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/boe_koop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EU policies, domestic public opinion and national elections: exploring policy responsiveness and congruence in the European Union</title>
+      <link>https://mscottodivettimo.github.io/publication/eu_resp/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/eu_resp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated web scraping of data on EU legislation</title>
+      <link>https://mscottodivettimo.github.io/project/oeil_app/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/project/oeil_app/</guid>
+      <description>&lt;p&gt;The application is a translation into a stand-alone executable file of a Python script created for web scraping the European Parliament&amp;rsquo;s Legislative Observatory (OEIL) and EUR-Lex websites. The main purpose of the app is, therefore, to collect information on EU legislation from multiple institutional sources, using EUR-Lex to fill the gaps of the OEIL database or viceversa. Furthermore, the app extracts also the text of the summaries of the legislative acts and store it in a spreadsheet along with other act-level variables. These texts are stored in UTF-8 format and can be easily used by the most common packages for quantitative text analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Measuring public support for European integration from population-level data using a Bayesian IRT model</title>
+      <link>https://mscottodivettimo.github.io/publication/irt/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/irt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

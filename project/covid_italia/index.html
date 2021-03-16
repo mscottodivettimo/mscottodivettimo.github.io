@@ -1,0 +1,1301 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo" />
+  
+  
+    <meta name="google-site-verification" content="t6cxEpsTI87eSi8IheRSfmNTtZ62EUjnmRzfZpgXfQQ" />
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Michele Scotto di Vettimo" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Alla mattina del 15 marzo sono stati somministrati 6.715.732 vaccini in tutta Italia, con un incremento di 95.721 vaccinazioni rispetto al giorno precedente, e corrispondenti al 78 percento delle dosi distribuite alle regioni. Dall&#39;inizio della campagna si sono somministrate, mediamente, circa 91 mila dosi di vaccino al giorno, con un picco di 208.440 somministrazioni il 11 marzo." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://mscottodivettimo.github.io/project/covid_italia/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#3f51b5" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://mscottodivettimo.github.io/css/wowchemy.cfa1d315669a522866dbfb2308b51550.css" />
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PG9KJT3THX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-PG9KJT3THX', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="https://mscottodivettimo.github.io/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://mscottodivettimo.github.io/project/covid_italia/" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Michele Scotto di Vettimo" />
+  <meta property="og:url" content="https://mscottodivettimo.github.io/project/covid_italia/" />
+  <meta property="og:title" content="Andamento delle vaccinazioni COVID-19 regione per regione | Michele Scotto di Vettimo" />
+  <meta property="og:description" content="Alla mattina del 15 marzo sono stati somministrati 6.715.732 vaccini in tutta Italia, con un incremento di 95.721 vaccinazioni rispetto al giorno precedente, e corrispondenti al 78 percento delle dosi distribuite alle regioni. Dall&#39;inizio della campagna si sono somministrate, mediamente, circa 91 mila dosi di vaccino al giorno, con un picco di 208.440 somministrazioni il 11 marzo." /><meta property="og:image" content="https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-03-15T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-03-15T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mscottodivettimo.github.io/project/covid_italia/"
+  },
+  "headline": "Andamento delle vaccinazioni COVID-19 regione per regione",
+  
+  "datePublished": "2021-03-15T00:00:00Z",
+  "dateModified": "2021-03-15T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Michele Scotto di Vettimo"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Michele Scotto di Vettimo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Alla mattina del 15 marzo sono stati somministrati 6.715.732 vaccini in tutta Italia, con un incremento di 95.721 vaccinazioni rispetto al giorno precedente, e corrispondenti al 78 percento delle dosi distribuite alle regioni. Dall'inizio della campagna si sono somministrate, mediamente, circa 91 mila dosi di vaccino al giorno, con un picco di 208.440 somministrazioni il 11 marzo."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Andamento delle vaccinazioni COVID-19 regione per regione | Michele Scotto di Vettimo</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="https://mscottodivettimo.github.io/js/wowchemy-init.min.0475bc389b7599ef6b1889ad17c11742.js"></script>
+
+  
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="https://mscottodivettimo.github.io/">Michele Scotto di Vettimo</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="https://mscottodivettimo.github.io/">Michele Scotto di Vettimo</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://mscottodivettimo.github.io/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://mscottodivettimo.github.io/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://mscottodivettimo.github.io/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://mscottodivettimo.github.io/media/cv_2021_03.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://mscottodivettimo.github.io/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Andamento delle vaccinazioni COVID-19 regione per regione</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 15, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://mscottodivettimo.github.io/files/covid_data/vaccinazioni_covid_regioni.csv" >
+    
+    Dati per regione
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://mscottodivettimo.github.io/files/covid_data/vaccinazioni_covid_et%c3%a0.csv" >
+    
+    Dati per età
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>In questo post (in continuo aggiornamento) provo a riportare in forma grafica le informazioni sulla somministrazione dei vaccini COVID-19 diffuse giornalmente dal Ministero della Salute. I dati grezzi delle vaccinazioni giornaliere per regione vengono presi dal <a href="https://github.com/italia/covid19-opendata-vaccini" target="_blank" rel="noopener">repository di Developers Italia</a> contenente gli Opendata sulle vaccinazioni ricavati dalla dashboard del <a href="https://www.governo.it/it/cscovid19/report-vaccini/" target="_blank" rel="noopener">Report Vaccini Anti COVID-19</a> del Ministero della Salute. I dati riarrangiati su cui si basano i grafici di questo post sono messi a disposizione in formato csv.</p>
+<p>Nel nostro paese, la campagna vaccinale è cominciata il 31 dicembre 2020, dopo che nella giornata del 27 solo poche migliaia di dosi erano state somministrate, simbolicamente, per il Vaccine Day europeo. Fino ad ora al nostro paese sono state consegnate 8.597.500 dosi, fornite per circa il 68 percento da Pfizer/BioNTech, per il 25 percento da AstraZeneca e per il 5 percento da Moderna. <iframe width="100%" height="400" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/somm_per_fornitore.html"></iframe>Alla mattina del 15 marzo sono stati somministrati 6.715.732 vaccini in tutta Italia, con un incremento di 95.721 vaccinazioni rispetto al giorno precedente, e corrispondenti al 78 percento delle dosi distribuite alle regioni. Dall&rsquo;inizio della campagna si sono somministrate, mediamente, circa 91 mila dosi di vaccino al giorno, con un picco di 208.440 somministrazioni il 11 marzo.</p>
+<p>Negli ultimi 7 giorni, invece, sono state somministrate circa 175 mila dosi al giorno, un valore superiore alla media giornaliera lungo periodo di circa il 92 percento. Inoltre, confrontando il numero delle dosi somministrate tra lunedì e domenica nelle ultime settimane si ottengono i seguenti valori:</p>
+<ul>
+<li>questa settimana: 1.227.160</li>
+<li>settimana scorsa: 1.138.037</li>
+<li>due settimane fa: 793.586</li>
+<li>tre settimane fa: 520.116</li>
+<li>quattro settimane fa: 430.988</li>
+</ul>
+<p>La figura successiva mostra invece l&rsquo;andamento nazionale delle somministrazioni dall&rsquo;inizio della campagna vaccinale. Le barre di colore blu si riferiscono alla somministrazione della seconda dose, e pertanto indicano il numero di individui completamente immunizzati.<iframe width="100%" height="550" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/bar_dosi.html"></iframe>Al momento, in Italia sono state immunizzate 2.003.391 persone, corrispondenti al 3.4 percento della popolazione residente, mentre 2.708.950 sono in attesa di ricevere la seconda dose (quindi il 7.9 percento della popolazione ha ricevuto almeno una dose). Il numero di dosi somministrate per ogni 1000 abitanti può essere usato per confrontare l&rsquo;Italia con gli altri paesi per vedere chi sta procedendo più speditamente nella campagna di vaccinazione.</p>
+<iframe width="100%" height="450" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/som_p1000_abs.gif"></iframe>La somministrazione di vaccini, comunque, non è omogenea su tutto il territorio nazionale. Il grafico a barre qui sotto mostra i numeri (assoluti, ponderati alla popolazione o come percentuale delle scorte a disposizione) delle somministrazioni e delle immunizzazioni regione per regione, e fornisce una visione generale di dove sono stati fatti più vaccini. Da notare che tutti i vaccini in uso in Italia al momento richiedono la somministrazione di due dosi.<iframe width="100%" height="550" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/bar_chart.html"></iframe>Tuttavia, il numero assoluto di somministrazioni non permette di confrontare facilmente il ritmo di implementazione del piano vaccinale tra varie regioni. Pertanto, il seguente grafico mostra l'andamento delle somministrazioni giornaliere regione per regione (viste le numerose oscillazioni le serie sono state "lisciate" e considerano la media mobile su 5 giorni). Lazio, Molise e Abruzzo sono le regioni che stanno somministrando più dosi in rapporto alla propria popolazione, mentre Basilicata e Friuli-Venezia Giulia sono quelle che arrancano di più.<iframe width="100%" height="550" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/somm_giornaliere.html"></iframe>
+<p>Inoltre, come si può vedere nel prossim grafico a barre, pur partendo tutte dalle categorie inviduate nel <a href="http://www.salute.gov.it/imgs/C_17_pubblicazioni_2986_allegato.pdf" target="_top">Piano vaccini</a> , alcune regioni si stanno muovendo più rapidamente di altre per quanto riguarda la vaccinazione delle fasce di età più anziane. <iframe width="100%" height="550" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/bar_perc_fasce.html"></iframe>
+Pertanto, alcune regioni, come ad esempio Bolzano e Trento, hanno coperto più di altre individui di età superiore a 60 anni, la categoria di persone in cui ricade la <a href=https://www.epicentro.iss.it/coronavirus/sars-cov-2-decessi-italia target="_top"> stragrande maggioranza dei decessi per COVID-19</a>.</p>
+<iframe width="100%" height="550" name="iframe" style="border:none;" allowfullscreen  src="https://mscottodivettimo.github.io/files/perc_immunizzati_età.html"></iframe>
+<p><em>Aggiornato con i dati disponibili alle ore 18:23 del 15 marzo.</em></p>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="https://mscottodivettimo.github.io/tag/dataviz/">DataViz</a>
+  
+  <a class="badge badge-light" href="https://mscottodivettimo.github.io/tag/covid-19/">Covid-19</a>
+  
+  <a class="badge badge-light" href="https://mscottodivettimo.github.io/tag/vaccinations/">Vaccinations</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://mscottodivettimo.github.io/project/covid_italia/&amp;text=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://mscottodivettimo.github.io/project/covid_italia/&amp;t=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione&amp;body=https://mscottodivettimo.github.io/project/covid_italia/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://mscottodivettimo.github.io/project/covid_italia/&amp;title=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione%20https://mscottodivettimo.github.io/project/covid_italia/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://mscottodivettimo.github.io/project/covid_italia/&amp;title=Andamento%20delle%20vaccinazioni%20COVID-19%20regione%20per%20regione" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://mscottodivettimo.github.io/"><img class="avatar mr-3 avatar-circle" src="https://mscottodivettimo.github.io/author/michele-scotto-di-vettimo/avatar_hueff2e075df000ec19e6ca7a7d797f70e_241174_270x270_fill_q75_lanczos_center.jpg" alt="Michele Scotto di Vettimo"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://mscottodivettimo.github.io/">Michele Scotto di Vettimo</a></h5>
+      <h6 class="card-subtitle">PhD Candidate in Politics</h6>
+      <p class="card-text">My research interests include comparative politics, public opinion studies and EU political system.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://mscottodivettimo.github.io/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/MicheleScottodV" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/michelescottodivettimo" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/michelescottodv" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
+        </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="https://mscottodivettimo.github.io/en/js/wowchemy.min.06e52bf0665167274d459a9300d0fab2.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

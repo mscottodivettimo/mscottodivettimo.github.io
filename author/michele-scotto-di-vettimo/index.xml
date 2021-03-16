@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/author/michele-scotto-di-vettimo/</link>
+      <atom:link href="https://mscottodivettimo.github.io/author/michele-scotto-di-vettimo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michele Scotto di Vettimo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/author/michele-scotto-di-vettimo/avatar_hueff2e075df000ec19e6ca7a7d797f70e_241174_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Michele Scotto di Vettimo</title>
+      <link>https://mscottodivettimo.github.io/author/michele-scotto-di-vettimo/</link>
+    </image>
+    
+    <item>
+      <title>Central Banks after the global financial crisis: Does more political means also more politicised?</title>
+      <link>https://mscottodivettimo.github.io/publication/boe_koop/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/boe_koop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EU policies, domestic public opinion and national elections: exploring policy responsiveness and congruence in the European Union</title>
+      <link>https://mscottodivettimo.github.io/publication/eu_resp/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/eu_resp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring public support for European integration from population-level data using a Bayesian IRT model</title>
+      <link>https://mscottodivettimo.github.io/publication/irt/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/irt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

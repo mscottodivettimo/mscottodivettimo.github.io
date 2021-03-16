@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web scraping | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/tag/web-scraping/</link>
+      <atom:link href="https://mscottodivettimo.github.io/tag/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <description>Web scraping</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Web scraping</title>
+      <link>https://mscottodivettimo.github.io/tag/web-scraping/</link>
+    </image>
+    
+    <item>
+      <title>Automated web scraping of data on EU legislation</title>
+      <link>https://mscottodivettimo.github.io/project/oeil_app/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/project/oeil_app/</guid>
+      <description>&lt;p&gt;The application is a translation into a stand-alone executable file of a Python script created for web scraping the European Parliament&amp;rsquo;s Legislative Observatory (OEIL) and EUR-Lex websites. The main purpose of the app is, therefore, to collect information on EU legislation from multiple institutional sources, using EUR-Lex to fill the gaps of the OEIL database or viceversa. Furthermore, the app extracts also the text of the summaries of the legislative acts and store it in a spreadsheet along with other act-level variables. These texts are stored in UTF-8 format and can be easily used by the most common packages for quantitative text analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
