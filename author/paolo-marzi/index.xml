@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paolo Marzi | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/author/paolo-marzi/</link>
+      <atom:link href="https://mscottodivettimo.github.io/author/paolo-marzi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paolo Marzi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Paolo Marzi</title>
+      <link>https://mscottodivettimo.github.io/author/paolo-marzi/</link>
+    </image>
+    
+    <item>
+      <title>Whom do you serve? A comparative analysis of mass-elite congruence between voters, business and political elites (2007 – 2017)</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2023_09_elite_congruence/</link>
+      <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2023_09_elite_congruence/</guid>
+      <description>&lt;p&gt;In the last decades, changes in attitudes and salience within the political spheres in Europe deeply impacted the alignment between voters and politicians.
+In this sense, the existing literature on unequal representation shows how representatives&amp;rsquo; preferences could in fact be regarded as closer to the preferences of specific social groups rather than the parties&amp;rsquo; median supporter or to the electorate at-large.
+Given these premises, we aim to contribute to the present literature by exploring the ideological congruence between representatives, voters and business elites in a group of European countries across different time periods.
+By emphasising the importance of economic factors within the political sphere of different national political systems, we intend to confirm or refute the notion that elected officials at the (supra)national level are closer to business elites when compared to the public, as well as observing how these trends changed over time.
+By relying on both data from three mass-elite survey projects (IntUne and EUENGAGE) and an innovative measure – Earth Mover&amp;rsquo;s Distance (EMD) – our paper proves that representatives were became increasingly closer to business elites after the outbreak of the Eurozone crisis, while simultaneously drifting away from the electorate at large.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
