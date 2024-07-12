@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christel Koop | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/author/christel-koop/</link>
+      <atom:link href="https://mscottodivettimo.github.io/author/christel-koop/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christel Koop</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Christel Koop</title>
+      <link>https://mscottodivettimo.github.io/author/christel-koop/</link>
+    </image>
+    
+    <item>
+      <title>Non-majoritarian institutions, media coverage, and &#39;reinforced accountability&#39;</title>
+      <link>https://mscottodivettimo.github.io/publication/2022_10_koop_boe_volume/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2022_10_koop_boe_volume/</guid>
+      <description>&lt;p&gt;As non-majoritarian institutions are deliberately insulated from electoral pressure and ministerial hierarchy, they suffer from an accountability deficit.
+This deficit can be reduced by embedding the organizations in a wider accountability landscape with multiple forums.
+Of particular relevance in this landscape are the news media, who may not only serve as account holders, but can also reinforce other forms of accountability.
+Yet, we know little about the conditions under which the media cover non-majoritarian governance, and the existence of `reinforced accountability&amp;rsquo;.
+Focusing empirically on news articles about the Bank of England (1997-2020), we trace coverage levels back to the announcement of key policy decisions and, to some extent, policy outcomes.
+Importantly, we find evidence of reinforced accountability, both in relation to parliamentary oversight and the Bank’s own, voluntary account-giving.
+These results provide reason for cautious optimism about non-majoritarian accountability, at least in the case of a salient organization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do the media scrutinise central banking? Evidence from the Bank of England</title>
+      <link>https://mscottodivettimo.github.io/publication/2022_09_koop_boe_acc/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2022_09_koop_boe_acc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do central bank communication and outreach affect public attitudes towards the organisation? Evidence from a survey experiment</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2023_06_cb_survey_experiment/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2023_06_cb_survey_experiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do societal priorities matter for the agenda of independent central banks?</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2022_05_koop_boe_resp/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2022_05_koop_boe_resp/</guid>
+      <description>&lt;p&gt;Independent central banks have come to invest increasingly in engagement with citizens. These interactions are meant to work in two directions, with the organisations informing as well as learning from citizens. Yet, whilst several studies have assessed the impact of central bank communication on citizens, we know little about whether any learning takes place at the side of the organisations. As they are deliberately insulated from political and public preferences, independent central banks are unlikely to follow citizen input in their policy choices. Yet, it is possible &amp;ndash; and in fact suggested by the organisations &amp;ndash; that some agenda responsiveness takes place; that is, that central banks&amp;rsquo; agendas take into account societal issue priorities. Our study assesses this possibility in the case of the Bank of England, one of the most engagement-active central banks. Relying on seeded latent Dirichlet allocation (LDA) and vector autoregression (VAR) models, we analyse the influence of the topics covered in newspaper articles about the Bank &amp;ndash; our proxy for societal issue priorities &amp;ndash; on the topics of both the internal policy meetings and external communication of the organisation. Our (preliminary) results show that the attention the Bank dedicates to particular topics can be traced back to societal issue priorities in most of the domains related to the Bank&amp;rsquo;s mandate. Our results contribute to a better understanding of the politics of central banking &amp;ndash; and of non-majoritarian governance more generally.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
