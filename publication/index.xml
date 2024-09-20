@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/publication/</link>
+      <atom:link href="https://mscottodivettimo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://mscottodivettimo.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Non-majoritarian institutions, media coverage, and &#39;reinforced accountability&#39;</title>
+      <link>https://mscottodivettimo.github.io/publication/2022_10_koop_boe_volume/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2022_10_koop_boe_volume/</guid>
+      <description>&lt;p&gt;As non-majoritarian institutions are deliberately insulated from electoral pressure and ministerial hierarchy, they suffer from an accountability deficit.
+This deficit can be reduced by embedding the organizations in a wider accountability landscape with multiple forums.
+Of particular relevance in this landscape are the news media, who may not only serve as account holders, but can also reinforce other forms of accountability.
+Yet, we know little about the conditions under which the media cover non-majoritarian governance, and the existence of `reinforced accountability&amp;rsquo;.
+Focusing empirically on news articles about the Bank of England (1997-2020), we trace coverage levels back to the announcement of key policy decisions and, to some extent, policy outcomes.
+Importantly, we find evidence of reinforced accountability, both in relation to parliamentary oversight and the Bank’s own, voluntary account-giving.
+These results provide reason for cautious optimism about non-majoritarian accountability, at least in the case of a salient organization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Political trust in the first year of the COVID-19 pandemic: A meta-analysis of 67 studies</title>
+      <link>https://mscottodivettimo.github.io/publication/2023_01_covid_trust_meta/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2023_01_covid_trust_meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do the media scrutinise central banking? Evidence from the Bank of England</title>
+      <link>https://mscottodivettimo.github.io/publication/2022_09_koop_boe_acc/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2022_09_koop_boe_acc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring public support for European integration using a Bayesian IRT model</title>
+      <link>https://mscottodivettimo.github.io/publication/2021_11_irt/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2021_11_irt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

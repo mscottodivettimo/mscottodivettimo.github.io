@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrei Zhirnov | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/author/andrei-zhirnov/</link>
+      <atom:link href="https://mscottodivettimo.github.io/author/andrei-zhirnov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrei Zhirnov</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Andrei Zhirnov</title>
+      <link>https://mscottodivettimo.github.io/author/andrei-zhirnov/</link>
+    </image>
+    
+    <item>
+      <title>Research contexts conducive to the bias in the estimates with VAA-generated data</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2023_09_vaa_bias/</link>
+      <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2023_09_vaa_bias/</guid>
+      <description>&lt;p&gt;Voting Advice Applications have become particularly popular tools used in democracies to ask users about their political stances and match them with political parties accordingly.
+However, VAA users are usually an unrepresentative sample of the general citizenry and this may lead to biased estimates of public attitudes coming from VAA samples.
+In this paper, we capitalise on the 2009 European Election Study to assess the extent of such bias and identify factors that can explain cross-national differences in VAA bias.
+Our findings indicate that these differences are due to both country-level factors like poor penetration of VAAs and to question-level factors such as the extent to which participating in a VAA is associated with particular response patterns.
+The latter element represent an additional source of cross-national variation as we show that the association varies considerably across countries.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
