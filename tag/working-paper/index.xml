@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working paper | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/tag/working-paper/</link>
+      <atom:link href="https://mscottodivettimo.github.io/tag/working-paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Working paper</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Working paper</title>
+      <link>https://mscottodivettimo.github.io/tag/working-paper/</link>
+    </image>
+    
+    <item>
+      <title>Multi-level politics in action: How national elections make European policies more responsive</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2021_12_eu_resp/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2021_12_eu_resp/</guid>
+      <description>&lt;p&gt;This paper analyses the linkage between policy-specific preferences for EU integration and EU policies between 1994 and 2019. It has been shown that EU institutional arrangements allow national-level factors to influence the linkage between public opinion and EU-level policies. I argue that EU policymaking is skewed towards public preferences in those states where national elections are closer in the future. To support this claim, I used Bayesian item response theory (B-IRT) to construct policy area-specific series of public preferences for EU integration starting from 121 Eurobarometer questions. Then, I collected the summaries of all European legislative acts tabled between 1994 and 2019, and used a machine learning approach to categorise them into acts that expand EU authority and those that do not.  Results indicate that the likelihood of adopting acts expanding EU authority can be best predicted by weighting domestic support for the EU by the proximity to national elections. In particular, this measure outperforms both a similarly constructed salience-weighed measure and EU-wide average opinion. Furthermore, the likelihood that an adopted EU policy is congruent with domestic opinion majorities is higher when national elections are closer and there is a clear-cut opinion in the member state. However, this holds only when national ministers are more involved in the EU decision-making process. This paper contributes to the existing literature on the opinion-policy linkage in the EU under territorial representation by showing the key role that national elections play in EU-level policymaking.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
