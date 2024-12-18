@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amanda Haraldsson | Michele Scotto di Vettimo</title>
+    <link>https://mscottodivettimo.github.io/author/amanda-haraldsson/</link>
+      <atom:link href="https://mscottodivettimo.github.io/author/amanda-haraldsson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amanda Haraldsson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mscottodivettimo.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Amanda Haraldsson</title>
+      <link>https://mscottodivettimo.github.io/author/amanda-haraldsson/</link>
+    </image>
+    
+    <item>
+      <title>Citizen-produced political text: An interdisciplinary study of inequalities in research</title>
+      <link>https://mscottodivettimo.github.io/publication/2024_12_cppt/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/publication/2024_12_cppt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research challenges and training needs in text analysis for social science research</title>
+      <link>https://mscottodivettimo.github.io/working_paper/2023_01_cta_training_needs/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://mscottodivettimo.github.io/working_paper/2023_01_cta_training_needs/</guid>
+      <description>&lt;p&gt;An ever-increasing availability of digital texts has opened new research opportunities for social scientists.
+Yet, researchers who want to utilise these data face several challenges.
+This paper presents the results of a community-wide survey tapping into various research challenges, training needs and preferences of scholars using text analysis methodologies.
+The survey involved respondents from various academic fields and career levels.
+Our findings indicate that text-as-data methods are gaining momentum in various social sciences fields and are used on a wide range of political texts.
+However, relevant training is not easily accessible to all.
+Only half of the respondents have ever participated in a training event, though there is a high demand for training opportunities, both in different formats and at different levels.
+In the conclusions we discuss how the inaccessibility of training risks narrowing the field of researchers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
