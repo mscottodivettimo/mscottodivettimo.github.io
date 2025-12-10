@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>include | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/tag/include/</link>
+      <atom:link href="https://michelescottodivettimo.eu/tag/include/index.xml" rel="self" type="application/rss+xml" />
+    <description>include</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>include</title>
+      <link>https://michelescottodivettimo.eu/tag/include/</link>
+    </image>
+    
+    <item>
+      <title>An R function to scrape data on EU laws (scRapEU)</title>
+      <link>https://michelescottodivettimo.eu/project/scrapeu/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/scrapeu/</guid>
+      <description>&lt;h5 id=&#34;description&#34;&gt;Description&lt;/h5&gt;
+&lt;p&gt;This project presents an easy to use R function to automatically download key data and textual information on EU laws from the &lt;a href=&#34;https://oeil.secure.europarl.europa.eu/oeil/search/search.do?searchType=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Parliament&amp;rsquo;s Legislative Observatory&lt;/a&gt; and &lt;a href=&#34;https://eur-lex.europa.eu/homepage.html?locale=en#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUR-Lex&lt;/a&gt; websites.&lt;/p&gt;
+&lt;p&gt;It downloads most of the information available on the procedure page, complements it with data from the EUR-Lex website, and stores it in a dataframe that can subsequently be saved by the user in the preferred format (see &lt;a href=&#34;https://mscottodivettimo.github.io/scrapeu/scRapEU_documentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;).&lt;/p&gt;
+&lt;h5 id=&#34;usage&#34;&gt;Usage&lt;/h5&gt;
+&lt;p&gt;The raw script can be downloaded from this &lt;a href=&#34;https://mscottodivettimo.github.io/scrapeu/scRapEU.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; otherwise it can be accessed directly from the R workspace as per the instructions in the documentation.&lt;/p&gt;
+&lt;p&gt;A minimal report about the information extracted can be found &lt;a href=&#34;https://mscottodivettimo.github.io/scrapeu/scRapEU_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An updated version of the dataset with the procedures from 1994 onwards is available upon request.&lt;/p&gt;
+&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;p&gt;The raw code is publicly accessible and free to download, adapt, and use. However, I would be grateful if you could acknowledge the use of the original code as follows:&lt;/p&gt;
+&lt;p&gt;Scotto di Vettimo, M. (2022), &amp;lsquo;&amp;lsquo;scRapEU: An R function to scrape data on EU laws&amp;rsquo;&amp;rsquo;. Version April 2024. DOI: &lt;a href=&#34;https://zenodo.org/records/10871232&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.5281/zenodo.10871232&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

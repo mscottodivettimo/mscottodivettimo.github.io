@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hannah Bunting | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/author/hannah-bunting/</link>
+      <atom:link href="https://michelescottodivettimo.eu/author/hannah-bunting/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hannah Bunting</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Hannah Bunting</title>
+      <link>https://michelescottodivettimo.eu/author/hannah-bunting/</link>
+    </image>
+    
+    <item>
+      <title>Political trust in the first year of the COVID-19 pandemic: A meta-analysis of 67 studies</title>
+      <link>https://michelescottodivettimo.eu/publication/2024_jepp_covid_trust_meta/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2024_jepp_covid_trust_meta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
