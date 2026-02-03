@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text analysis | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/tag/text-analysis/</link>
+      <atom:link href="https://michelescottodivettimo.eu/tag/text-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Text analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Text analysis</title>
+      <link>https://michelescottodivettimo.eu/tag/text-analysis/</link>
+    </image>
+    
+    <item>
+      <title>scRapEU: An R function to scrape data on EU laws</title>
+      <link>https://michelescottodivettimo.eu/project/scrapeu/</link>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/scrapeu/</guid>
+      <description>&lt;h5 id=&#34;description&#34;&gt;Description&lt;/h5&gt;
+&lt;p&gt;This project presents an easy to use R function to automatically download key data and textual information on EU laws from the &lt;a href=&#34;https://oeil.secure.europarl.europa.eu/oeil/search/search.do?searchType=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Parliament&amp;rsquo;s Legislative Observatory&lt;/a&gt; and &lt;a href=&#34;https://eur-lex.europa.eu/homepage.html?locale=en#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUR-Lex&lt;/a&gt; websites.&lt;/p&gt;
+&lt;p&gt;It downloads most of the information available on the procedure page, complements it with data from the EUR-Lex website, and stores it in a dataframe that can subsequently be saved by the user in the preferred format (see &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU_documentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;).&lt;/p&gt;
+&lt;h5 id=&#34;usage&#34;&gt;Usage&lt;/h5&gt;
+&lt;p&gt;The raw script can be downloaded from this &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; otherwise it can be accessed directly from the R workspace as per the instructions in the documentation.&lt;/p&gt;
+&lt;p&gt;A minimal report about the information extracted can be found &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An updated version of the dataset with the procedures initiated from 1993 onwards is available upon request.&lt;/p&gt;
+&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;p&gt;The raw code is publicly accessible and free to download, adapt, and use. However, I would be grateful if you could acknowledge the use of the original code as follows:&lt;/p&gt;
+&lt;p&gt;Scotto di Vettimo, M. (2022), &amp;lsquo;&amp;lsquo;scRapEU: An R function to scrape data on EU laws&amp;rsquo;&amp;rsquo;. Version December 2025. &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bank of England Speeches Dataset</title>
+      <link>https://michelescottodivettimo.eu/project/bankofengland/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/bankofengland/</guid>
+      <description>&lt;p&gt;This page contains the dataset of speeches of Bank of England officials initially collected for &lt;a href=&#34;https://doi.org/10.1111/gove.70103&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scotto di Vettimo and Koop (2025)&lt;/a&gt;.
+The dataset has been compiled by scraping the Bank of England website, and manually annotating a number of relevant covariates for each speech.&lt;/p&gt;
+&lt;h3 id=&#34;centerbank-of-england-officials-deliver-speeches-around-the-world-and-across-the-ukcenter&#34;&gt;&lt;center&gt;&lt;strong&gt;Bank of England officials deliver speeches around the world and across the UK&lt;/strong&gt;&lt;/center&gt;&lt;/h3&gt;
+&lt;div style=&#34;display:flex; justify-content:space-between; gap:0px; margin-bottom:30px;&#34;&gt;
+  &lt;iframe src=&#34;https://michelescottodivettimo.eu/boe/speeches_locs.gif&#34;
+          width=&#34;50%&#34; height=&#34;350&#34;
+          frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://michelescottodivettimo.eu/boe/speeches_bars.gif&#34;
+          width=&#34;50%&#34; height=&#34;350&#34;
+          frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;The dataset features &lt;strong&gt;1,390 speeches&lt;/strong&gt; from Bank officials between &lt;strong&gt;May 1997&lt;/strong&gt; and &lt;strong&gt;June 2025&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The dataset is available from the UK Data Service free of charge for academic research and personal non-commercial use.
+It can be downloaded by clicking the button on top of this page.&lt;/p&gt;
+&lt;h4 id=&#34;citation&#34;&gt;Citation&lt;/h4&gt;
+&lt;p&gt;When using this data, please cite:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scotto di Vettimo, M. &amp;amp; Koop, C. (2025) &amp;ldquo;Technocrats, reputation, and responsiveness in policy explanation&amp;rdquo;, &lt;em&gt;Governance&lt;/em&gt;, 39(1), e70103. DOI: &lt;a href=&#34;https://doi.org/10.1111/gove.70103&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1111/gove.70103&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The replication package for this paper is available &lt;a href=&#34;https://reshare.ukdataservice.ac.uk/858235/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This page is updated with data collected up to June 2025.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A survey of the research challenges and training needs in text analysis for political science research</title>
+      <link>https://michelescottodivettimo.eu/project/opted_training_needs/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/opted_training_needs/</guid>
+      <description>&lt;p&gt;This online survey assessed the research challenges, training needs and preferences of researchers and practitioners (of all seniority and skills level) that use or are interested in using text analysis techniques in their research.
+The survey has been conducted within the context of the Horizon 2020 OPTED project (&lt;a href=&#34;http://www.opted.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.opted.eu&lt;/a&gt;), of which all the authors are part.
+The survey has been approved by the Research Ethics and Governance Office of the University of Exeter (REF: 509745).&lt;/p&gt;
+&lt;p&gt;Suggested citation: Scotto di Vettimo, M., Haraldsson, A., Gelovani, S., Banducci, S., Kalsnes, B., Koc-Michalska, K., and Theocharis, Y. (2022). A survey of the research challenges and training needs in text analysis for political science research. [Data collection]. DOI: &lt;a href=&#34;https://doi.org/10.24378/exe.4344&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.24378/exe.4344&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Note: survey results are currently under embargo. Requests for accessing the data can be forwarded to: &lt;a href=&#34;mailto:m.scotto-di-vettimo@exeter.ac.uk&#34;&gt;m.scotto-di-vettimo@exeter.ac.uk&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

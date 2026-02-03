@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yannis Theocharis | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/author/yannis-theocharis/</link>
+      <atom:link href="https://michelescottodivettimo.eu/author/yannis-theocharis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yannis Theocharis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Yannis Theocharis</title>
+      <link>https://michelescottodivettimo.eu/author/yannis-theocharis/</link>
+    </image>
+    
+    <item>
+      <title>Research Challenges and Training Needs in Text Analysis for Political Science Research</title>
+      <link>https://michelescottodivettimo.eu/publication/2025_eps_training_needs/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2025_eps_training_needs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

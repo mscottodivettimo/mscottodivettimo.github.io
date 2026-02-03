@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internal-project | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/project/internal-project/</link>
+      <atom:link href="https://michelescottodivettimo.eu/project/internal-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>internal-project</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>internal-project</title>
+      <link>https://michelescottodivettimo.eu/project/internal-project/</link>
+    </image>
+    
+    <item>
+      <title>A Populist Axis? Analyzing Connections between Populist, Economic, and Cultural Dimensions of Political Space</title>
+      <link>https://michelescottodivettimo.eu/publication/2026_populist_axis/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2026_populist_axis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technocrats, Reputation, and Responsiveness in Policy Explanation</title>
+      <link>https://michelescottodivettimo.eu/publication/2026_bank_of_england_speeches/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2026_bank_of_england_speeches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Challenges and Training Needs in Text Analysis for Political Science Research</title>
+      <link>https://michelescottodivettimo.eu/publication/2025_eps_training_needs/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2025_eps_training_needs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do populist parties better represent their voters than mainstream parties? Evidence from the 2019 European Parliament Elections in Italy, the Netherlands, Germany and Sweden</title>
+      <link>https://michelescottodivettimo.eu/publication/2025_es_populist/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2025_es_populist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do the media scrutinise central banking? Evidence from the Bank of England</title>
+      <link>https://michelescottodivettimo.eu/publication/2023_ejpe_boe_acc/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2023_ejpe_boe_acc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring public support for European integration using a Bayesian IRT model</title>
+      <link>https://michelescottodivettimo.eu/publication/2022_eup_irt/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2022_eup_irt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

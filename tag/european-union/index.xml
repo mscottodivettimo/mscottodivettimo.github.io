@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>European Union | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/tag/european-union/</link>
+      <atom:link href="https://michelescottodivettimo.eu/tag/european-union/index.xml" rel="self" type="application/rss+xml" />
+    <description>European Union</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>European Union</title>
+      <link>https://michelescottodivettimo.eu/tag/european-union/</link>
+    </image>
+    
+    <item>
+      <title>scRapEU: An R function to scrape data on EU laws</title>
+      <link>https://michelescottodivettimo.eu/project/scrapeu/</link>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/scrapeu/</guid>
+      <description>&lt;h5 id=&#34;description&#34;&gt;Description&lt;/h5&gt;
+&lt;p&gt;This project presents an easy to use R function to automatically download key data and textual information on EU laws from the &lt;a href=&#34;https://oeil.secure.europarl.europa.eu/oeil/search/search.do?searchType=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Parliament&amp;rsquo;s Legislative Observatory&lt;/a&gt; and &lt;a href=&#34;https://eur-lex.europa.eu/homepage.html?locale=en#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUR-Lex&lt;/a&gt; websites.&lt;/p&gt;
+&lt;p&gt;It downloads most of the information available on the procedure page, complements it with data from the EUR-Lex website, and stores it in a dataframe that can subsequently be saved by the user in the preferred format (see &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU_documentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;).&lt;/p&gt;
+&lt;h5 id=&#34;usage&#34;&gt;Usage&lt;/h5&gt;
+&lt;p&gt;The raw script can be downloaded from this &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; otherwise it can be accessed directly from the R workspace as per the instructions in the documentation.&lt;/p&gt;
+&lt;p&gt;A minimal report about the information extracted can be found &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An updated version of the dataset with the procedures initiated from 1993 onwards is available upon request.&lt;/p&gt;
+&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;p&gt;The raw code is publicly accessible and free to download, adapt, and use. However, I would be grateful if you could acknowledge the use of the original code as follows:&lt;/p&gt;
+&lt;p&gt;Scotto di Vettimo, M. (2022), &amp;lsquo;&amp;lsquo;scRapEU: An R function to scrape data on EU laws&amp;rsquo;&amp;rsquo;. Version December 2025. &lt;a href=&#34;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://michelescottodivettimo.eu/scrapeu/scRapEU.R&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tracking Euroscepticism (across time and space)</title>
+      <link>https://michelescottodivettimo.eu/project/irt_opinion/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/project/irt_opinion/</guid>
+      <description>&lt;p&gt;This post aims at tracking the level of support for European integration over a very long time frame in all the member states of the European Union. In particular, the chart shows the evolution of support for EU integration since the 1970s (or since the year a country joined the EU).&lt;/p&gt;
+&lt;p&gt;The measures refer to the overall support for the European Union and to the support for European integration in the following areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asylum and immigration policies;&lt;/li&gt;
+&lt;li&gt;fiscal and economic affairs;&lt;/li&gt;
+&lt;li&gt;internal market and consumer policies;&lt;/li&gt;
+&lt;li&gt;social and welfare policies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;550&#34; name=&#34;iframe&#34; style=&#34;border:none;&#34; allowfullscreen  src=&#34;https://michelescottodivettimo.eu/irt_opinion_eup2022.html&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The measures are constructed using a Bayesian approach to item response theory. In short, I treat support for European integration as a latent &amp;lsquo;attribute&amp;rsquo; that respondents possess, more or less as if it was a skill. Now, imagine we want to measure respondents&amp;rsquo; (latent) support for the EU by asking them a few questions related to different aspects of EU
+support. Again, more or less as if we would like to capture their mathematical knowledge by asking questions about algebra and so on. We know that the probability that they answer in a pro-European way is determined by three factors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;all things being equal, the higher the individual&amp;rsquo;s latent support for the EU, the more likely she is to give a pro-EU answer to the question asked.&lt;/li&gt;
+&lt;li&gt;additionally, each question has its intrinsic difficulty. For instance, we would expect it to be more &amp;lsquo;difficult&amp;rsquo; to answer in a pro-European way
+to a question asking whether the EU should become a federation rather than to a question asking
+whether more EU action is needed on matters related to development cooperation. Whenever a respondent&amp;rsquo;s &amp;lsquo;pro-Europeaness&amp;rsquo; exceeds the difficulty of the question, she is more likely to show support for EU integration rather than opposition.&lt;/li&gt;
+&lt;li&gt;changes in the respondent&amp;rsquo;s latent support for Europe affect the likelihood of answering in a pro-European way, but the effect of these changes is not constant across all the questions.
+For example, some questions are more indicative of the underlying latent support, whereas other are just weakly reflective of latent support. This property is called question discrimination.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In an ideal situation, by knowing each question&amp;rsquo;s difficulty (point 2 above) and discrimination (point 3), as well as the distribution of
+latent EU support in the population (point 1), it would be possible to predict the percentage of pro-European
+responses to a specific question asked at a given point in time. Yet, we find ourselves precisely in the opposite situation. In fact, we could use available survey data only to know what is the true number of pro-European responses given to a specific question.&lt;/p&gt;
+&lt;p&gt;Therefore, a Bayesian approach is used to proceed &amp;lsquo;backwards&amp;rsquo; and to determine the most likely values of the question&amp;rsquo;s difficulty and discrimination, as well as the level of latent EU
+support, &lt;em&gt;given the observed response patterns&lt;/em&gt;. More technically, Bayesian item response theory starts from some (whatever vague) prior information
+about the probability distribution of these unknown quantities, then looks at the observed data (survey responses) and estimates the probability that the data could
+be generated by a process with a given combination of these unknown quantities.&lt;/p&gt;
+&lt;p&gt;To implement the Bayesian model, I identify 201 Eurobarometer questions tapping into support for the European Union, which were asked at least
+twice since September 1973. A first category of questions comprises items on trust in the
+EU or in its institutions, the evaluation of one&amp;rsquo;s country membership in the EU, and dispositions
+towards European unification. A second and bigger (about 81%) category of questions, instead,
+measures preferences for the level of government which should be responsible for a particular policy,
+whether the EU should do more or less in a certain field, and whether the respondent favours or
+opposes the creation of an EU common policy in a given domain
+More detailed information about the methodology and the raw survey questions used for the estimation can be found in &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/14651165221080400&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The chart is updated with survey data collected up to 2020.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
