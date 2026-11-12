@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication | Michele Scotto di Vettimo</title>
+    <link>https://michelescottodivettimo.eu/tag/publication/</link>
+      <atom:link href="https://michelescottodivettimo.eu/tag/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michelescottodivettimo.eu/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Publication</title>
+      <link>https://michelescottodivettimo.eu/tag/publication/</link>
+    </image>
+    
+    <item>
+      <title>Do populist parties better represent their voters than mainstream parties? Evidence from the 2019 European Parliament Elections in Italy, the Netherlands, Germany and Sweden</title>
+      <link>https://michelescottodivettimo.eu/publication/2025_es_populist/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2025_es_populist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do the media scrutinise central banking? Evidence from the Bank of England</title>
+      <link>https://michelescottodivettimo.eu/publication/2023_ejpe_boe_acc/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://michelescottodivettimo.eu/publication/2023_ejpe_boe_acc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
